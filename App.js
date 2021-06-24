@@ -7,7 +7,7 @@ import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import HomeScreen from './screens/HomeScreen';
 import AddChatScreen from './screens/AddChatScreen';
-
+import { LogBox } from 'react-native';
 const Stack = createStackNavigator();
 
 const globalScreenOptions = {
@@ -18,6 +18,7 @@ const globalScreenOptions = {
 
 
 export default function App() {
+  LogBox.ignoreLogs(['Setting a timer']);
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={globalScreenOptions}>
