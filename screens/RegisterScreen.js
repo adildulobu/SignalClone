@@ -18,7 +18,7 @@ const RegisterScreen = () =>{
                 displayName: name,
                 photoURL:
                     imageUrl ||
-                    "https://lh3.googleusercontent.com/ogw/ADea4I4Q3m4I-DJN1g5bWi02NZmGLRjSfL6yN9HrNrMZ=s83-c-mo"
+                    "https://cencup.com/wp-content/uploads/2019/07/avatar-placeholder.png"
             })
         })
         .catch((error) => alert(error.message))
