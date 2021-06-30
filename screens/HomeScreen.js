@@ -3,7 +3,7 @@ import { StyleSheet ,SafeAreaView,ScrollView, View, TouchableOpacity } from 'rea
 import { Avatar } from 'react-native-elements'
 import CustomListItem from '../components/CustomListItem'
 import { StatusBar } from 'expo-status-bar'
-import { auth, db } from '../firebase'
+import { auth, db } from '../firebasee'
 import {AntDesign, SimpleLineIcons} from '@expo/vector-icons'
 
 

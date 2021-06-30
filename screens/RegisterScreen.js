@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import { StyleSheet, View } from 'react-native'
+import { Platform,StyleSheet, View } from 'react-native'
 import { Button, Input, Text } from 'react-native-elements'
 import { KeyboardAvoidingView } from 'react-native'
 import { StatusBar } from 'expo-status-bar'
-import { auth } from '../firebase'
+import { auth } from '../firebasee'
 const RegisterScreen = () =>{
     const [name,setName] = useState("");
     const [email,setEmail] = useState("");

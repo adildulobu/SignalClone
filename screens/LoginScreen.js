@@ -3,7 +3,7 @@ import { Platform,StyleSheet,Text, View } from 'react-native'
 import { Button, Input, Image } from 'react-native-elements'
 import { KeyboardAvoidingView } from 'react-native'
 import { StatusBar } from 'expo-status-bar'
-import { auth } from '../firebase'
+import { auth } from '../firebasee'
 const LoginScreen = ({ navigation }) =>{
 
     const [email,setEmail] = useState("");
