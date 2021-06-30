@@ -1,6 +1,7 @@
-import * as firebase from 'firebase'
+import firebase from 'firebase'
 import 'firebase/firestore'
 import 'firebase/auth'
+
 const firebaseConfig = {
     apiKey: "AIzaSyBMEwrOADPPcMQTHfYNPoBwul6FSfRB8ms",
     authDomain: "signal-clone-adil.firebaseapp.com",
